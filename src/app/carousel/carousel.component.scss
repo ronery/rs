@@ -1,0 +1,51 @@
+.feature-home {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    background:url(../../assets/images/bg-feature-home.jpg) no-repeat center fixed;
+    background-size: cover;
+    .container{
+        height: 100%;
+        position: relative;
+    }
+    .box-container{
+        display: table;
+        width: 100%;
+        height: 100%;
+        .box-content{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            .content-feature-home{
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                color: #fff;
+                h1{
+                    font-size: 60px;
+                    margin: 0;
+                    span{                        
+                        font-size: 18px;
+                    }
+                }                 
+                .btn-default{
+                    border-color: #fff;
+                    border-width: 2px;
+                    color: #fff;
+                    background-color: transparent;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    &:hover{
+                        background-color: #fff;
+                        color: #8aaafc;
+                    }
+                } 
+                hr{
+                    border-color: #fff;
+                } 
+            }
+        }
+    }
+}
